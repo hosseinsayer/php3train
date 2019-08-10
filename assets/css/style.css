@@ -1,0 +1,36 @@
+html{
+    direction: rtl;
+}
+form{
+    float: right;
+    padding: 15px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 7px;
+    margin-top: 3px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.modal .header{
+    text-align: center;
+}
+.buttons{
+    direction: ltr !important;
+}
+.ui.menu .logo{
+    margin: 0 15px !important;
+}
+.ui.menu .item.left,.ui.menu .item.left:before{
+    background: none !important;
+    border: none !important;
+}
+.ui.main{
+    margin-top: 100px;
+}
+.message.warning:hover{
+    cursor: pointer;
+}
